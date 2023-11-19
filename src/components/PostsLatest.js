@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { selectPosts, filterPosts } from "../features/posts/postsSlice";
+import { selectPosts } from "../features/posts/postsSlice";
 import { Link } from "react-router-dom";
 
 export const PostsLatest = () => {
