@@ -1,0 +1,179 @@
+/************ Custom Font ************/
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('../assets/font/IBMPlexMono-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('../assets/font/IBMPlexMono-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('../assets/font/IBMPlexMono-Regular.ttf');
+  font-weight: 400;
+}
+
+
+/************ Default Css ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0 auto 40px;
+  max-width: 900px;
+  line-height: 1.7;
+  padding: 0 10px;
+  background-color: #0c1810;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+  font-size: 18px;
+  color: #bfcfc7;
+}
+
+.content {
+  flex: 1;
+}
+
+a {
+  border-bottom: 2px solid #26d962;
+  color: #60bd84;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #26d962;
+  color: #0c1810;
+  font-weight: 600;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #60bd84;
+}
+
+/************ NavBar.js Css **********/
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  list-style-type: none;
+}
+
+.navbar .active {
+  background-color: #26d962;
+  color: #0c1810;
+  font-weight: 600;
+}
+
+.nav-left {
+  font-size: 30px;
+}
+
+.nav-right a {
+  margin-left: 10px;
+}
+
+/************ Banner.js Css **********/
+.banner-main {
+  margin-bottom: 4em;
+}
+
+/*********** LatestPosts.js + PostsList.js Css ********/
+.posts-line {
+  background: transparent;
+  border-bottom: 1px solid #162c1e;
+  gap: 1rem;
+  padding: 0.4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.posts-line .link {
+  border-bottom: 2px solid hsla(140, 70%, 50%, 0.5);
+}
+
+.posts-line .link:hover {
+  background-color: rgba(38, 217, 98, 0.8);
+}
+
+.posts-line time {
+  font-size: .9rem;
+  font-weight: 500;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.posts-list h1,
+.posts-list h2 {
+  color: #bfcfc7;
+}
+
+.posts-list h2 {
+  margin: 15px 0 15px;
+}
+
+/********* Footer Css ***********/
+.footer {
+  margin: 40px auto;
+  font-size: 12px;
+  color: #bfcfc7;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+/************ Markdown Css *********/
+
+.markdown {
+  font-size: 16px;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  padding: 20px 0 25px 0;
+}
+
+.markdown p {
+  line-height: 2;
+  padding: 10px 0 15px 0;
+}
+
+.markdown li {
+  line-height: 1.8;
+  padding: 5px 0 5px 0;
+}
+
+.markdown ul,
+.markdown ol {
+  padding: 10px 50px 15px 50px;
+}
