@@ -4,5 +4,10 @@ export const POSTS = {
         titulo: "First version of this website!",
         data: "2023-11-15",
         id: "bolotaeuv1"
+    },
+    "samplemarkdown": {
+        titulo: "Mais um artigo!",
+        data: "2023-12-19",
+        id: "samplemarkdown"
     }
 }
