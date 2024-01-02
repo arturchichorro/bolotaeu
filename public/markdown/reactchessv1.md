@@ -45,6 +45,6 @@ game: [{
 ```
 (Note that I then also added the fifty move rule counter to the mix, so that it wouldn't bug out the takeback button).
 
-I'm very happy with how the project turned out, and I'll definetely come back to it in a few months. I want the interface to this website at some point!
+I'm very happy with how the project turned out, and I'll definetely come back to it in a few months. I want to have this interface in this website at some point!
 
 
