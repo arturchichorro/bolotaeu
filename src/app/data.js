@@ -9,5 +9,10 @@ export const POSTS = {
         titulo: "Coding a chess interface using React",
         data: "2024-01-02",
         id: "reactchessv1"
+    },
+    "manim_first_attempt": {
+        titulo: "Learning how to use Manim",
+        data: "2024-03-28",
+        id: "manim_first_attempt"
     }
 }
