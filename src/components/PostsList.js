@@ -16,6 +16,11 @@ export const PostsList = () => {
         postsByYear[year].push(post);
     });
 
+    // Sort posts within each year chronologically
+    Object.keys(postsByYear).forEach(year => {
+        postsByYear[year].sort((a, b) => new Date(b.data) - new Date(a.data));
+    });
+
     return (
         <div className="posts-list">
             <h1>** All Posts.</h1>
