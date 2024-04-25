@@ -12,7 +12,12 @@ export const POSTS = {
     },
     "manim_first_attempt": {
         titulo: "Learning how to use Manim",
-        data: "2024-03-28",
+        data: "2024-02-28",
         id: "manim_first_attempt"
-    }
+    },
+    "chess_enginev1": {
+        titulo: "Version 1 of my Chess Engine",
+        data: "2024-03-15",
+        id: "chess_enginev1"
+    },
 }
