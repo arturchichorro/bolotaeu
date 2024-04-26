@@ -20,4 +20,9 @@ export const POSTS = {
         data: "2024-03-15",
         id: "chess_enginev1"
     },
+    "shift_appens": {
+        titulo: "I won an Hackathon!",
+        data: "2024-04-26",
+        id: "shift_appens"
+    },
 }
